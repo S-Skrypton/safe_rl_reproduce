@@ -1,0 +1,441 @@
+True 1
+Save with config of experiment grid in grid_config.json
+================================================================================
+ExperimentGrid [Benchmark_Safety_Velocity2.4] runs over parameters:
+
+ algo                                    [alg] 
+
+	"FOCOPS"
+	"CPO"
+	"PPOLag"
+
+ logger_cfgs:use_wandb                   [log-use] 
+
+	false
+
+ train_cfgs:vector_env_nums              [tra-vec] 
+
+	4
+
+ train_cfgs:torch_threads                [tra-tor] 
+
+	1
+
+ algo_cfgs:steps_per_epoch               [alg-ste] 
+
+	2000
+
+ train_cfgs:total_steps                  [tra-tot] 
+
+	2000000
+
+ env_id                                  [env] 
+
+	"SafetyHopperVelocity-v1"
+
+ seed                                    [see] 
+
+	0
+
+ Variants, counting seeds:               3
+ Variants, not counting seeds:           3
+
+================================================================================
+value {'seed': 0, 'env_id': 'SafetyHopperVelocity-v1', 'train_cfgs': {'total_steps': 2000000, 'torch_threads': 1, 'vector_env_nums': 4}, 'algo_cfgs': {'steps_per_epoch': 2000}, 'logger_cfgs': {'use_wandb': False}, 'algo': 'FOCOPS'} key algo
+value {'seed': 0, 'env_id': 'SafetyHopperVelocity-v1', 'train_cfgs': {'total_steps': 2000000, 'torch_threads': 1, 'vector_env_nums': 4}, 'algo_cfgs': {'steps_per_epoch': 2000}, 'logger_cfgs': {'use_wandb': False}, 'algo': 'CPO'} key algo
+value {'seed': 0, 'env_id': 'SafetyHopperVelocity-v1', 'train_cfgs': {'total_steps': 2000000, 'torch_threads': 1, 'vector_env_nums': 4}, 'algo_cfgs': {'steps_per_epoch': 2000}, 'logger_cfgs': {'use_wandb': False}, 'algo': 'PPOLag'} key algo
+
+Preparing to run the following experiments...
+
+Benchmark_Safety_Velocity2.4_algcpo
+Benchmark_Safety_Velocity2.4_algfocops
+Benchmark_Safety_Velocity2.4_algppolag
+
+================================================================================
+current_config {'seed': 0, 'env_id': 'SafetyHopperVelocity-v1', 'train_cfgs': {'total_steps': 2000000, 'torch_threads': 1, 'vector_env_nums': 4}, 'algo_cfgs': {'steps_per_epoch': 2000}, 'logger_cfgs': {'use_wandb': False}, 'algo': 'FOCOPS'}
+exp-x: 0 is training...
+exp-x: 1 is training...
+exp-x: 2 is training...
+current_config {'seed': 0, 'env_id': 'SafetyHopperVelocity-v1', 'train_cfgs': {'total_steps': 2000000, 'torch_threads': 1, 'vector_env_nums': 4}, 'algo_cfgs': {'steps_per_epoch': 2000}, 'logger_cfgs': {'use_wandb': False}, 'algo': 'CPO'}
+current_config {'seed': 0, 'env_id': 'SafetyHopperVelocity-v1', 'train_cfgs': {'total_steps': 2000000, 'torch_threads': 1, 'vector_env_nums': 4}, 'algo_cfgs': {'steps_per_epoch': 2000}, 'logger_cfgs': {'use_wandb': False}, 'algo': 'PPOLag'}
+Plotting from...
+==================================================
+
+./exp-x/Benchmark_Safety_Velocity2.4/SafetyHopperVelocity-v1---041ac6d3612a6d083d0c2ffdebcf06009bd426e1007f01ff34b830d3b6090440
+
+==================================================
+Plotting from...
+==================================================
+
+./exp-x/Benchmark_Safety_Velocity2.4/SafetyHopperVelocity-v1---198447079650c6f072f21294080558f5acfcbdff5e6bfc099d3064476eac541e
+
+==================================================
+Plotting from...
+==================================================
+
+./exp-x/Benchmark_Safety_Velocity2.4/SafetyHopperVelocity-v1---5fe6c0c75449dddeec98da513742108c2fd72279cf50ae2c7008a0f31de97923
+
+==================================================
+Episode 1 results:
+Episode reward: 1549.262235045433
+Episode cost: 7.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1549.262235045433
+Average episode cost: 7.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1610.2037732601166
+Episode cost: 47.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1610.2037732601166
+Average episode cost: 47.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1664.2837347388268
+Episode cost: 237.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1664.2837347388268
+Average episode cost: 237.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1632.6599954366684
+Episode cost: 78.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1632.6599954366684
+Average episode cost: 78.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1486.43545460701
+Episode cost: 1.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1486.43545460701
+Average episode cost: 1.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1543.8744019269943
+Episode cost: 23.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1543.8744019269943
+Average episode cost: 23.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1562.9070599079132
+Episode cost: 13.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1562.9070599079132
+Average episode cost: 13.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 9.244941294193268
+Episode cost: 0.0
+Episode length: 13.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 9.244941294193268
+Average episode cost: 0.0
+Average episode length: 13.0
+Episode 1 results:
+Episode reward: 472.268443107605
+Episode cost: 64.0
+Episode length: 296.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 472.268443107605
+Average episode cost: 64.0
+Average episode length: 296.0
+Episode 1 results:
+Episode reward: 1638.8878823518753
+Episode cost: 99.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1638.8878823518753
+Average episode cost: 99.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1583.7043781280518
+Episode cost: 22.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1583.7043781280518
+Average episode cost: 22.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1826.919566810131
+Episode cost: 579.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1826.919566810131
+Average episode cost: 579.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1023.4417322278023
+Episode cost: 0.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1023.4417322278023
+Average episode cost: 0.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1022.4477902054787
+Episode cost: 0.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1022.4477902054787
+Average episode cost: 0.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1272.7524018287659
+Episode cost: 41.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1272.7524018287659
+Average episode cost: 41.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1579.2189123630524
+Episode cost: 357.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1579.2189123630524
+Average episode cost: 357.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1022.345285654068
+Episode cost: 0.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1022.345285654068
+Average episode cost: 0.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1564.3880569338799
+Episode cost: 274.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1564.3880569338799
+Average episode cost: 274.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 9.168109729886055
+Episode cost: 0.0
+Episode length: 13.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 9.168109729886055
+Average episode cost: 0.0
+Average episode length: 13.0
+Episode 1 results:
+Episode reward: 1005.4553179740906
+Episode cost: 0.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1005.4553179740906
+Average episode cost: 0.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1023.4750589728355
+Episode cost: 0.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1023.4750589728355
+Average episode cost: 0.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1284.6711013913155
+Episode cost: 0.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1284.6711013913155
+Average episode cost: 0.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1649.4488104581833
+Episode cost: 0.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1649.4488104581833
+Average episode cost: 0.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 221.06849789619446
+Episode cost: 0.0
+Episode length: 134.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 221.06849789619446
+Average episode cost: 0.0
+Average episode length: 134.0
+Episode 1 results:
+Episode reward: 1670.205530166626
+Episode cost: 0.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1670.205530166626
+Average episode cost: 0.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1613.0876044034958
+Episode cost: 6.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1613.0876044034958
+Average episode cost: 6.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1461.9386930465698
+Episode cost: 0.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1461.9386930465698
+Average episode cost: 0.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1682.1233414411545
+Episode cost: 0.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1682.1233414411545
+Average episode cost: 0.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 1663.640594959259
+Episode cost: 25.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1663.640594959259
+Average episode cost: 25.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 8.933985315263271
+Episode cost: 0.0
+Episode length: 14.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 8.933985315263271
+Average episode cost: 0.0
+Average episode length: 14.0
+Episode 1 results:
+Episode reward: 1423.7322648763657
+Episode cost: 0.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1423.7322648763657
+Average episode cost: 0.0
+Average episode length: 1000.0
+Episode 1 results:
+Episode reward: 216.92112451791763
+Episode cost: 0.0
+Episode length: 132.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 216.92112451791763
+Average episode cost: 0.0
+Average episode length: 132.0
+Episode 1 results:
+Episode reward: 1666.7474037408829
+Episode cost: 10.0
+Episode length: 1000.0
+
+##################################################
+
+Evaluation results:
+Average episode reward: 1666.7474037408829
+Average episode cost: 10.0
+Average episode length: 1000.0

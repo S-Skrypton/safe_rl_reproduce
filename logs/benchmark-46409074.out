@@ -1,0 +1,56 @@
+True 1
+Save with config of experiment grid in grid_config.json
+================================================================================
+ExperimentGrid [Benchmark_Safety_Velocity2.3] runs over parameters:
+
+ algo                                    [alg] 
+
+	"FOCOPS"
+	"CPO"
+	"PPOLag"
+
+ logger_cfgs:use_wandb                   [log-use] 
+
+	false
+
+ train_cfgs:vector_env_nums              [tra-vec] 
+
+	4
+
+ train_cfgs:torch_threads                [tra-tor] 
+
+	1
+
+ algo_cfgs:steps_per_epoch               [alg-ste] 
+
+	20000
+
+ train_cfgs:total_steps                  [tra-tot] 
+
+	10000000
+
+ env_id                                  [env] 
+
+	"SafetyHopperVelocity-v1"
+
+ seed                                    [see] 
+
+	0
+
+ Variants, counting seeds:               3
+ Variants, not counting seeds:           3
+
+================================================================================
+value {'seed': 0, 'env_id': 'SafetyHopperVelocity-v1', 'train_cfgs': {'total_steps': 10000000, 'torch_threads': 1, 'vector_env_nums': 4}, 'algo_cfgs': {'steps_per_epoch': 20000}, 'logger_cfgs': {'use_wandb': False}, 'algo': 'FOCOPS'} key algo
+value {'seed': 0, 'env_id': 'SafetyHopperVelocity-v1', 'train_cfgs': {'total_steps': 10000000, 'torch_threads': 1, 'vector_env_nums': 4}, 'algo_cfgs': {'steps_per_epoch': 20000}, 'logger_cfgs': {'use_wandb': False}, 'algo': 'CPO'} key algo
+value {'seed': 0, 'env_id': 'SafetyHopperVelocity-v1', 'train_cfgs': {'total_steps': 10000000, 'torch_threads': 1, 'vector_env_nums': 4}, 'algo_cfgs': {'steps_per_epoch': 20000}, 'logger_cfgs': {'use_wandb': False}, 'algo': 'PPOLag'} key algo
+
+Preparing to run the following experiments...
+
+Benchmark_Safety_Velocity2.3_algcpo
+Benchmark_Safety_Velocity2.3_algfocops
+Benchmark_Safety_Velocity2.3_algppolag
+
+================================================================================
+current_config {'seed': 0, 'env_id': 'SafetyHopperVelocity-v1', 'train_cfgs': {'total_steps': 10000000, 'torch_threads': 1, 'vector_env_nums': 4}, 'algo_cfgs': {'steps_per_epoch': 20000}, 'logger_cfgs': {'use_wandb': False}, 'algo': 'FOCOPS'}
+[2026-03-30T20:10:45.325] error: *** JOB 46409074 ON gl1503 CANCELLED AT 2026-03-30T20:10:45 DUE to SIGNAL Terminated ***
